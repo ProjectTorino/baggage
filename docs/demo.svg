@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="813" height="628" viewBox="0 0 813 628" role="img" aria-label="baggage terminal output">
+<title>flask</title>
+<rect width="813" height="628" rx="10" fill="#0d1117" stroke="#30363d"/>
+<path d="M0 10a10 10 0 0 1 10-10h793a10 10 0 0 1 10 10v22H0z" fill="#161b22"/>
+<circle cx="18" cy="16.0" r="5.5" fill="#ff5f56"/>
+<circle cx="36" cy="16.0" r="5.5" fill="#ffbd2e"/>
+<circle cx="54" cy="16.0" r="5.5" fill="#27c93f"/>
+<text x="406" y="20.0" fill="#8b949e" font-size="11" text-anchor="middle" font-family="ui-monospace, Menlo, Consolas, monospace">flask</text>
+<text x="18" y="63" fill="#8b949e" font-size="13" xml:space="preserve" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">baggage  ~/flask</text>
+<text x="18" y="103" fill="#3fb950" font-size="13" xml:space="preserve" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">   21.1 / 100   grade B   ##--------</text>
+<text x="18" y="123" fill="#e6edf3" font-size="13" xml:space="preserve" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">  3,831 commits over 16.6 years</text>
+<text x="18" y="143" fill="#e6edf3" font-size="13" xml:space="preserve" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">  25 files scored  (skipped 97 docs, 51 test, 42 sample, 10 ci, 10 config, 1 lockfile, 1 packaging)</text>
+<text x="18" y="183" fill="#e6edf3" font-size="13" xml:space="preserve" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">  Top hotspots</text>
+<text x="18" y="203" fill="#e6edf3" font-size="13" xml:space="preserve" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">  SCORE  FILE                                         COMMITS     CHURN      LOC LINKED  WHO</text>
+<text x="18" y="223" fill="#e6edf3" font-size="13" xml:space="preserve" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">   30.0  src/flask/app.py                                  11       235    1,686     51   31</text>
+<text x="18" y="243" fill="#e6edf3" font-size="13" xml:space="preserve" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">   18.6  src/flask/ctx.py                                   5       109      540     23    8</text>
+<text x="18" y="263" fill="#e6edf3" font-size="13" xml:space="preserve" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">   14.1  src/flask/helpers.py                               5        58      679     44   22</text>
+<text x="18" y="283" fill="#e6edf3" font-size="13" xml:space="preserve" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">   12.5  src/flask/sansio/app.py                            5        46    1,014     36    6</text>
+<text x="18" y="303" fill="#e6edf3" font-size="13" xml:space="preserve" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">   11.4  src/flask/sessions.py                              4        42      385     24    8</text>
+<text x="18" y="323" fill="#e6edf3" font-size="13" xml:space="preserve" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">    7.1  src/flask/cli.py                                   4        15    1,126     33   18</text>
+<text x="18" y="363" fill="#e6edf3" font-size="13" xml:space="preserve" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">  Why the top ones hurt</text>
+<text x="18" y="383" fill="#e6edf3" font-size="13" xml:space="preserve" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">  src/flask/app.py</text>
+<text x="18" y="403" fill="#e6edf3" font-size="13" xml:space="preserve" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">      * 1,686 lines to read</text>
+<text x="18" y="423" fill="#e6edf3" font-size="13" xml:space="preserve" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">      * changes ripple into 51 distant files</text>
+<text x="18" y="443" fill="#e6edf3" font-size="13" xml:space="preserve" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">      * 235 lines churned recently</text>
+<text x="18" y="463" fill="#e6edf3" font-size="13" xml:space="preserve" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">  src/flask/ctx.py</text>
+<text x="18" y="483" fill="#e6edf3" font-size="13" xml:space="preserve" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">      * 540 lines to read</text>
+<text x="18" y="503" fill="#e6edf3" font-size="13" xml:space="preserve" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">      * changes ripple into 23 distant files</text>
+<text x="18" y="523" fill="#e6edf3" font-size="13" xml:space="preserve" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">      * touched often for very little code</text>
+<text x="18" y="543" fill="#e6edf3" font-size="13" xml:space="preserve" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">  src/flask/helpers.py</text>
+<text x="18" y="563" fill="#e6edf3" font-size="13" xml:space="preserve" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">      * changes ripple into 44 distant files</text>
+<text x="18" y="583" fill="#e6edf3" font-size="13" xml:space="preserve" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">      * 679 lines to read</text>
+<text x="18" y="603" fill="#e6edf3" font-size="13" xml:space="preserve" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">      * touched often for very little code</text>
+</svg>

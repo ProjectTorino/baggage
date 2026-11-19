@@ -8,28 +8,7 @@ else understands and nothing tests.
 
 One command. No config. No API keys. No LLM. Python 3.9+ and `git`.
 
-```console
-$ baggage .
-baggage  D:\work\flask
-
-   21.1 / 100   grade B   ##--------
-  3,831 commits over 16.6 years
-  25 files scored  (skipped 97 docs, 51 test, 42 sample, 10 ci, 10 config, 1 lockfile, 1 packaging)
-
-  Top hotspots
-  SCORE  FILE                                         COMMITS     CHURN      LOC LINKED  WHO
-   30.0  src/flask/app.py                                  11       235    1,686     51   31
-   18.6  src/flask/ctx.py                                   5       109      540     23    8
-   14.1  src/flask/helpers.py                               5        58      679     44   22
-   12.5  src/flask/sansio/app.py                            5        46    1,014     36    6
-   11.4  src/flask/sessions.py                              4        42      385     24    8
-
-  Why the top ones hurt
-  src/flask/app.py
-      * 1,686 lines to read
-      * changes ripple into 51 distant files
-      * 235 lines churned recently
-```
+![baggage analysing pallets/flask](docs/demo.svg)
 
 That output is real. So are these:
 
@@ -187,6 +166,13 @@ python -m unittest discover -s tests -v
 — two money pits, one decoy touched constantly but only ever changing two lines,
 and cold filler — and asserts the ranking survives. Any change to the cost model
 has to pass it.
+
+`tools/make_demo_svg.py` regenerates `docs/demo.svg`, the terminal snapshot at
+the top of this README:
+
+```bash
+python tools/make_demo_svg.py path/to/repo docs/demo.svg --top 6
+```
 
 ## License
 
